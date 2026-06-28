@@ -33,10 +33,7 @@ public abstract class Asiento {
         return this.estado;
     }
 
-
-
-
-
-
-
+    public void setEstado(EstadoAsiento estado) {
+        this.estado = estado;
+    }
 }
